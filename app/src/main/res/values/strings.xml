@@ -1,3 +1,36 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">SUDOKO</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="three">3</string>
+    <string name="four">4</string>
+    <string name="five">5</string>
+    <string name="six">6</string>
+    <string name="seven">7</string>
+    <string name="eight">8</string>
+    <string name="nine">9</string>
+    <string name="close" translatable="false">X</string>
+
+
+    <string name="common_language">Language</string>
+    <string name="language_option_default">Default</string>
+    <string name="language_name_english" translatable="false">English </string>
+    <string name="language_name_Arabic" translatable="false">Arabic</string>
+    <string name="language_name_Bengali" translatable="false">Bengali</string>
+    <string name="language_name_spanish" translatable="false">Chinese(Simple)</string>
+    <string name="language_name_french" translatable="false">Chinese(Complex)</string>
+    <string name="language_name_hindi" translatable="false">हिंदी (भारत)</string>
+    <string name="language_name_italian" translatable="false">Urdu</string>
+    <string name="language_name_japanese" translatable="false">Ethipoic</string>
+    <string name="language_name_marathi" translatable="false">Gujarati</string>
+    <string name="language_name_dutch" translatable="false">Gurmukhi</string>
+    <string name="language_name_portuguese_brazil" translatable="false">Kannada</string>
+    <string name="language_name_turkish" translatable="false">Telugu</string>
+    <string name="language_name_russian" translatable="false">Lao</string>
+    <string name="language_name_tamil" translatable="false">Limbu</string>
+    <string name="language_name_telugu" translatable="false">Malayalam</string>
+    <string name="language_name_chinese" translatable="false">Mongolian)</string>
+    <string name="language_name_danish" translatable="false">Myanmar</string>
+    <string name="level">Level</string>
+
 </resources>

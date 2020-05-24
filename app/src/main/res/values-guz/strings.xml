@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="one">౧</string>
+    <string name="two">౨</string>
+    <string name="three">౩</string>
+    <string name="four">౪</string>
+    <string name="five">౫</string>
+    <string name="six">౬\t</string>
+    <string name="seven">౭</string>
+    <string name="eight">౮</string>
+    <string name="nine">"౯ "</string>
+</resources>

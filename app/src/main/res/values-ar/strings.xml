@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SUDOKO</string>
+    <string name="one">١</string>
+    <string name="two">٢</string>
+    <string name="three">٣</string>
+    <string name="four">٤</string>
+    <string name="five">٥</string>
+    <string name="six">٦</string>
+    <string name="seven">٧</string>
+    <string name="eight">٨</string>
+    <string name="nine">٩</string>
+</resources>

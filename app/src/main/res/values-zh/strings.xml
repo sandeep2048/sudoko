@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">SUDOKO</string>
+    <string name="app_name">SUDOKU</string>
     <string name="one">壹</string>
     <string name="two">貳</string>
     <string name="three">參</string>

@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.santosh.sandeep_sudoko;
 
 import android.app.Activity;
 import android.content.Context;

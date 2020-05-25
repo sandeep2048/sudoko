@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.santosh.sandeep_sudoko;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
@@ -16,8 +16,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.Arrays;
 import java.util.BitSet;
 
-import static com.example.myapplication.AppUtil.CHANGE_LANGUAGE;
-import static com.example.myapplication.AppUtil.originalMatrix;
+import static com.santosh.sandeep_sudoko.AppUtil.CHANGE_LANGUAGE;
+import static com.santosh.sandeep_sudoko.AppUtil.originalMatrix;
 
 public class MainActivity extends AppCompatActivity implements callBack {
     int[][] matrix;

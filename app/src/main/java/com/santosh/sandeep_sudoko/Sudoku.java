@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.santosh.sandeep_sudoko;
 
 interface callBack {
     void sudokoCreationCompleted();

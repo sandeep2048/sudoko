@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SUDOKO</string>
+    <string name="app_name">SUDOKU</string>
     <string name="one">೧</string>
     <string name="two">೨</string>
     <string name="three">೩</string>

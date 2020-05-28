@@ -2,6 +2,7 @@ package com.santosh.sandeep_sudoko;
 
 import android.content.DialogInterface;
 import android.os.Bundle;
+import android.os.Handler;
 import android.text.TextUtils;
 import android.view.Gravity;
 import android.view.View;
@@ -87,6 +88,7 @@ public class MainActivity extends AppCompatActivity implements callBack {
         String y = AppUtil.getSharedPreferencesString(originalMatrix, this);
         //   y = null;
 
+        boolean isYnull = false;
         if (y == null) {
             int N = 9, K = 20;
             Sudoku sudoku = new Sudoku(N, K, this);
@@ -95,14 +97,28 @@ public class MainActivity extends AppCompatActivity implements callBack {
             gameMatrix = sudoku.mat;
             AppUtil.putSharedPreferences(originalMatrix, Arrays.deepToString(sudoku.mat), this);
             AppUtil.putSharedPreferences(AppUtil.gamelMat, Arrays.deepToString(sudoku.mat), this);
+            isYnull = true;
 
         } else {
             String gM = AppUtil.getSharedPreferencesString(AppUtil.gamelMat, this);
             matrix = convertStringtoIntArray(y);
             gameMatrix = convertStringtoIntArray(gM);
         }
-        setData();
-        setOnclickListenfornumbers();
+        if (isYnull) {
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    setData();
+                    setOnclickListenfornumbers();
+                }
+            }, 3000);
+        } else {
+            setData();
+            setOnclickListenfornumbers();
+        }
+
+
+
     }
 
     @Override

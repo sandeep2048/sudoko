@@ -4,6 +4,11 @@ android {
     compileSdkVersion 29
     buildToolsVersion "29.0.3"
 
+    bundle {
+        language {
+            enableSplit = false
+        }
+    }
     defaultConfig {
         applicationId "com.santosh.sandeep_sudoko"
         minSdkVersion 21

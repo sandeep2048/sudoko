@@ -89,6 +89,8 @@ public class MainActivity extends AppCompatActivity implements callBack {
         //   y = null;
 
         boolean isYnull = false;
+        matrix = new int[9][9];
+        gameMatrix = new int[9][9];
         if (y == null) {
             int N = 9, K = 20;
             Sudoku sudoku = new Sudoku(N, K, this);
